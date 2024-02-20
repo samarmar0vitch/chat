@@ -2,12 +2,8 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "name": "Install Dependencies",
-      "command": "npm install"
-    },
-    {
-      "command": "npm i tiktok-live-connector",
-      "name": "npm i tiktok-live-connector"
+      "name": "npm i tiktok-live-connector",
+      "command": "npm i tiktok-live-connector"
     }
   ],
 
@@ -15,18 +11,20 @@
   "tasks": {
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
     },
     "format": {
       "name": "format",
-      "command": "npm run format",
-      "runAtStart": false
+      "command": "npm run format"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
+    },
+    "node index.js": {
+      "name": "node index.js",
+      "command": "node index.js",
+      "runAtStart": true
     }
   }
 }
